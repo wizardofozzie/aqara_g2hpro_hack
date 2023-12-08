@@ -17,7 +17,7 @@ Original [instructions here](https://github.com/niceboygithub/AqaraGateway/issue
 
 7. [wh1terat](https://github.com/Wh1terat/aQRootG3) has created a hack which enables telnet. Run the cmd as `python3 aQRootG3.py dlink_ssid_2g thisisthepassword` (if dependencies like qrcode are missing, `pip3 install qrcode`). The QRcode must be displayed on a larger display (minimum 11x11cm)
 8. Open Aqara app- if camera isn't ready for setup, use reset button with 1) hold for 5 seconds or 2) 5 quick presses of reset. Carefully position the created QRcode ~15cm from the phone's camera until you hear the audio announcing it is scanned. This will eventually error out and that is completely normal.
-9. 5x reset button reset and restart the Aqara process, this time setting up with the actual QR code created by the Aqara app. Add to Homekit if required.
+9. Camera reset (hold for 5 seconds, NOT 5x reset presses) and restart the Aqara process, this time setting up with the actual QR code created by the Aqara app. Add to Homekit if required.
 10. Find the camera IP from your router or similar
 11. Open terminal, `telnet 192.168.1.101`. Use `root` for password. It should return
 ```
