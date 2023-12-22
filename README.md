@@ -1,7 +1,7 @@
 # aqara_g2hpro_hack
 Access the Aqara G2H Pro camera (CH-CO1) with hacked firmware
 
-Niceboygithub created non-official firmware 3.3.4 for the Aqara cameras. This version is older than the current v 4.x but allows older hack to work. Wh1terat figured out a genius QRcode hack.
+[Niceboygithub](https://github.com/niceboygithub) created non-official firmware 3.3.4 for the Aqara cameras. This version is older than the current v 4.x but allows older hack to work. [Wh1terat](https://github.com/Wh1terat) figured out a genius QRcode hack.
 
 Full credit to these great people- [buy niceboygithub a coffee](https://www.buymeacoffee.com/niceboygithub). 
 
